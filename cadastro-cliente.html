@@ -2,9 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cadastro</title>
+    <title>Cadastro de Clientes</title>
 </head>
 <body>
-    
+     
+     <form  action="..." method="post">
+         <fieldset id="pessoal">
+			<legend>Dados Pessoais</legend>
+			<label for="name">Nome : </label> 
+			<input name="name" id="name" type="text" />
+			<br />
+			
+			<label for="cpf">Cpf : </label> 
+			<input name="cpf" id="cpf" type="text" />
+			<br />
+			
+			<label for="sexo">Sexo : </label> 
+			<select name="optsexo">
+					<option label="Masculino" >Masculino</option>
+					<option label="Feminino" >Feminino</option>
+			</select>
+			<br />
+			
+			<label for="datanasc">Data Nasc : </label> 
+			<input name="datanasc" id="datanasc" type="date"  />
+			<br />
+			
+			<label for="telefone">Telefone : </label> 
+			<input name="telefone" id="telefone" type="text"  />
+			<br />
+			
+			<label for="email">Email : </label> 
+			<input name="email" id="email" type="text"  />
+			<br />
+			
+			<label for="senha">Senha : </label> 
+			<input name="senha" id="senha" type="password"  />
+			<br />
+			
+			<label for="senha">Confirmação de Senha : </label> 
+			<input name="conf-senha" id="conf-senha" type="password" />
+			<br />
+				
+		</fieldset>
+        
+        
+        <fieldset id="entrega">
+			<legend>Dados para Entrega</legend>
+			<label for="endereco">Endereço : </label> 
+			<input name="endereco" id="endereco" type="text" />
+			<br />
+			
+			<label for="numero">Número : </label> 
+			<input name="numero" id="numero" type="text" />
+			<br />
+			
+			<label for="bairro">Bairro : </label> 
+			<input name="bairro" id="bairro" type="text" />
+			<br />
+			
+			<label for="endereco">Endereço : </label> 
+			<input name="endereco" id="endereco" type="text" />
+			<br />
+			
+			<label for="estado">Estado : </label> 
+			<input name="estado" id="estado" type="text" />
+			<br />
+			
+			<label for="cep">Cep : </label> 
+			<input name="cep" id="cep" type="text" />
+			<br />			
+			
+		</fieldset>
+         
+     </form>
+     
+      
 </body>
 </html>
