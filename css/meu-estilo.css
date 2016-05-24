@@ -1,6 +1,20 @@
 .login-cliente{
-    width:600px;
+    width:800px;
     margin: 0 auto;
     padding: 50px;
+    text-align:center;
+}
+
+.cadastro-produto{
+    width:600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align:center;
+}
+
+.cadastro-cliente{
+    width:600px;
+    margin: 0 auto;
+    padding: 20px;
     text-align:center;
 }
