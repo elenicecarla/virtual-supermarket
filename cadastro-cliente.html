@@ -3,79 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/meu-estilo.css">
 </head>
 <body>
-     
-     <form  action="..." method="post">
-         <fieldset id="pessoal">
-			<legend>Dados Pessoais</legend>
-			<label for="name">Nome : </label> 
-			<input name="name" id="name" type="text" />
-			<br />
-			
-			<label for="cpf">Cpf : </label> 
-			<input name="cpf" id="cpf" type="text" />
-			<br />
-			
-			<label for="sexo">Sexo : </label> 
-			<select name="optsexo">
+     <form  class="form-horizontal" action="..." method="post">
+        <fieldset id="pessoal">
+            <legend>Dados Pessoais</legend>
+    
+            <div class="form-group">
+                 <label class="col-sm-2 control-label" for="name">Nome : </label> 
+                <div class="col-sm-10">
+                    <input class="form-control" name="name" id="name" type="text" />
+                </div>
+            </div>
+             
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="cpf">Cpf : </label>
+                <div class="col-sm-10">
+                    <input class="form-control" name="cpf" id="cpf" type="text" />
+                </div>
+            </div>
+            
+             <div class="form-group">
+                <label class="col-sm-2 control-label" for="sexo">Sexo : </label>
+                <div class="col-sm-10">
+                   <select class="form-control" name="optsexo">
 					<option label="Masculino" >Masculino</option>
 					<option label="Feminino" >Feminino</option>
-			</select>
-			<br />
-			
-			<label for="datanasc">Data Nasc : </label> 
-			<input name="datanasc" id="datanasc" type="date"  />
-			<br />
-			
-			<label for="telefone">Telefone : </label> 
-			<input name="telefone" id="telefone" type="text"  />
-			<br />
-			
-			<label for="email">Email : </label> 
-			<input name="email" id="email" type="text"  />
-			<br />
-			
-			<label for="senha">Senha : </label> 
-			<input name="senha" id="senha" type="password"  />
-			<br />
-			
-			<label for="senha">Confirmação de Senha : </label> 
-			<input name="conf-senha" id="conf-senha" type="password" />
-			<br />
-				
-		</fieldset>
-        
-        
+			        </select> 
+                </div>
+            </div>
+            
+             <div class="form-group">
+                <label class="col-sm-2 control-label" for="datanasc">Data Nasc : </label> 
+                <div class="col-sm-10">
+                    <input class="form-control" name="datanasc" id="datanasc" type="date"  />
+                </div>
+            </div>
+            
+             <div class="form-group">
+                <label class="col-sm-2 control-label"for="telefone">Telefone : </label>
+                <div class="col-sm-10">
+                    <input class="form-control" name="telefone" id="telefone" type="text"  />
+                </div>
+            </div>
+            
+             <div class="form-group">
+                <label class="col-sm-2 control-label"for="email">Email : </label> 
+                <div class="col-sm-10">
+                    <input class="form-control" name="email" id="email" type="text"  />
+                </div>
+            </div>
+            
+             <div class="form-group">
+                <label class="col-sm-2 control-label"for="senha">Senha : </label> 
+                <div class="col-sm-10">
+                    <input class="form-control" name="senha" id="senha" type="password"  />
+                </div>
+            </div>
+            
+             <div class="form-group">
+                <label class="col-sm-2 control-label" for="senha">Confirmação de Senha : </label> 
+                <div class="col-sm-10">
+                    <input class="form-control" name="conf-senha" id="conf-senha" type="password" />
+                </div>
+            </div>
+            
+        </fieldset>
+            
+            
         <fieldset id="entrega">
 			<legend>Dados para Entrega</legend>
-			<label for="endereco">Endereço : </label> 
-			<input name="endereco" id="endereco" type="text" />
-			<br />
 			
-			<label for="numero">Número : </label> 
-			<input name="numero" id="numero" type="text" />
-			<br />
+			 <div class="form-group">
+                <label class="col-sm-2 control-label" for="endereco">Endereço : </label>
+                <div class="col-sm-10">
+                   	<input class="form-control" name="endereco" id="endereco" type="text" /> 
+                </div>
+            </div>
 			
-			<label for="bairro">Bairro : </label> 
-			<input name="bairro" id="bairro" type="text" />
-			<br />
+			 <div class="form-group">
+                <label class="col-sm-2 control-label" for="numero">Número : </label> 
+                <div class="col-sm-10">
+                    <input class="form-control" name="numero" id="numero" type="text" />
+                </div>
+            </div>
+            
+             <div class="form-group">
+                <label class="col-sm-2 control-label" for="bairro">Bairro : </label> 
+                <div class="col-sm-10">
+                    <input class="form-control" name="bairro" id="bairro" type="text" />
+                </div>
+            </div>
+            
+             <div class="form-group">
+                <label class="col-sm-2 control-label" for="endereco">Endereço : </label>
+                <div class="col-sm-10">
+                   <input class="form-control" name="endereco" id="endereco" type="text" /> 
+                </div>
+            </div>
 			
-			<label for="endereco">Endereço : </label> 
-			<input name="endereco" id="endereco" type="text" />
-			<br />
+			 <div class="form-group">
+                  <label class="col-sm-2 control-label" for="estado">Estado : </label> 
+                <div class="col-sm-10">
+                   <input class="form-control" name="estado" id="estado" type="text" />
+                </div>
+            </div>
 			
-			<label for="estado">Estado : </label> 
-			<input name="estado" id="estado" type="text" />
-			<br />
-			
-			<label for="cep">Cep : </label> 
-			<input name="cep" id="cep" type="text" />
-			<br />			
-			
+			<div class="form-group">
+                  <label class="col-sm-2 control-label" for="cep">Cep : </label> 
+                <div class="col-sm-10">
+                   <input class="form-control" name="cep" id="cep" type="text" />
+                </div>
+            </div>
 		</fieldset>
-         <button>Salvar</button>
-         <button>Cancelar</button>
+          <button class="btn btn-default" type="button">Salvar</button>
+            <a href="index.html" class="btn btn-default">Cancelar</a>
+    
      </form>
      
       

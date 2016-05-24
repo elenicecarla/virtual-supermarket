@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Produtos</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/meu-estilo.css">
 </head>
 <body>
-     <form  action="..." method="post">  
-       <fieldset id="pessoal">
-			<legend>Busca</legend>
-			<input name="buscar" id="buscar" type="text" />
-			<button>Buscar</button>
-        </fieldset>
-     </form>
+    
+     <div class="row">
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Entre nome do produto aqui...">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Buscar</button>
+          </span>
+        </div>
+      </div>
+    </div>
+     
+     
      <div id="scroll">
-         <table>
+         <table class="table">
              <tr> 
                  <td>Código</td> 
                  <td>Nome</td> 
@@ -74,10 +81,10 @@
      </div>
      
     
-     <button>Editar</button>
-     <button>Remover</button>
-      <a href="cadastro-produto.html" class="button">Cadastrar</a>
-     <button>Sair</button>
+     <button class="btn btn-default">Editar</button>
+     <button class="btn btn-default">Remover</button>
+      <a href="cadastro-produto.html" class="btn btn-default">Cadastrar</a>
+     <button class="btn btn-default">Sair</button>
     
 
 </body>
