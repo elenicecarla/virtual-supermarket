@@ -5,13 +5,38 @@
     <title>Supermercado Virtual</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/meu-estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <a href="login-cliente.html">Login Cliente</a>
-    <br />
-    <a href="cadastro-cliente.html">Cadastro Cliente</a>
-    <br />
-    <a href="produtos.html">Produtos</a>
-    <br />
+    <h2>SUPERMERCADO VIRTUAL</h2> 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Categorias
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                <li><a href="#">Categoria 1</a></li>
+                <li><a href="#">Categoria 2</a></li>
+                <li><a href="#">Categoria 3</a></li>
+                </ul>
+                </div> 
+            </div>
+                                               
+            <div class="col-md-2">
+                <a href="login-cliente.html">Login</a> ou<br> 
+                <a href="cadastro-cliente.html">Cadastre-se</a>
+            </div>
+            
+            <div class="col-md-6">
+                 <div class="input-group">
+                 <input type="text" class="form-control" placeholder="Entre nome do produto aqui...">
+                 <span class="input-group-btn">
+                 <button class="btn btn-default" type="button">Buscar</button>
+                 </span>
+        </div>
+        </div>
+    </div>
 </body>
 </html>
