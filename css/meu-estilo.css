@@ -20,8 +20,29 @@
 }
 
 .produtos{
+    width:800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align:center;
+}
+
+.usuario{
+    width:800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align:center;
+}
+
+.cadastro-usuario{
      width:800px;
     margin: 0 auto;
     padding: 20px;
+    text-align:center;
+}
+
+.login-usuario{
+    width:800px;
+    margin: 0 auto;
+    padding: 50px;
     text-align:center;
 }
