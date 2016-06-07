@@ -51,3 +51,20 @@
     text-align:center;
      margin: 0 auto;
 }
+
+.img_produto{
+    width: 100px;
+    height: 100px;
+}
+
+.preco{
+    font-size: 20px;
+    color: red;
+}
+
+.divproduto{
+}
+
+.divproduto:hover{
+    background-color: ghostwhite;
+}
