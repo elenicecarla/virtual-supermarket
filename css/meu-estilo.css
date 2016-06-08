@@ -71,6 +71,9 @@ body{
     text-align: center;
 }
 
-.divproduto:hover{
-    border: 1px solid black;
+.cadastre{
+    border: 2px solid black;
 }
+
+
+
