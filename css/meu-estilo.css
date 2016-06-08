@@ -1,3 +1,7 @@
+body{
+    padding: 7px;
+}
+
 .login-cliente{
     width:800px;
     margin: 0 auto;
@@ -55,6 +59,7 @@
 .img_produto{
     width: 100px;
     height: 100px;
+    align-content: center;
 }
 
 .preco{
@@ -63,8 +68,9 @@
 }
 
 .divproduto{
+    text-align: center;
 }
 
 .divproduto:hover{
-    background-color: ghostwhite;
+    border: 1px solid black;
 }

@@ -9,10 +9,9 @@
 <body>
     <a href = "index.html"> <h2>Supermercado Virtual</h2></a></href>
        <div class="row">
-           <form  class="form-horizontal">
+           <form  class="form-horizontal" id="form-cliente">
             <div class="col-md-6">
-                    <fieldset id="pessoal">
-                        <legend>Dados Pessoais</legend>
+                <legend>Dados Pessoais</legend>
                 
                         <div class="form-group">
                             <label class="col-md-2" for="name">Nome : </label> 
@@ -31,7 +30,7 @@
                         <div class="form-group">
                             <label class="col-md-2" for="sexo">Sexo : </label>
                             <div class="col-md-9">
-                            <select class="form-control" name="optsexo">
+                            <select class="form-control" name="optsexo" id="sexo">
                                 <option value="masculino" >Masculino</option>
                                 <option value="meminino" >Feminino</option>
                                 </select> 
@@ -44,86 +43,14 @@
                                 <input class="form-control" name="datanasc" id="datanasc" type="date"  />
                             </div>
                         </div>
-                        
-                        <div class="form-group">
-                            <label class="col-md-2"for="telefone">Telefone : </label>
-                            <div class="col-md-9">
-                                <input class="form-control" name="telefone" id="telefone" type="text"  />
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label class="col-md-2"for="email">Email : </label> 
-                            <div class="col-md-9">
-                                <input class="form-control" name="email" id="email" type="text"  />
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label class="col-md-2"for="senha">Senha : </label> 
-                            <div class="col-md-9">
-                                <input class="form-control" name="senha" id="senha" type="password"  />
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label class="col-md-2" for="senha">Confirmação: </label> 
-                            <div class="col-md-9">
-                                <input class="form-control" name="conf-senha" id="conf-senha" type="password" />
-                            </div>
-                        </div>
-                        
-                    </fieldset>
-           </div>
-           
-           <div class="col-md-6">
-                <fieldset id="entrega">
-                        <legend>Endereço de Entrega</legend>
-                
-                        <div class="form-group">
-                            <label class="col-md-2" for="rua">Rua : </label> 
-                            <div class="col-md-9">
-                                <input class="form-control" name="rua" id="rua" type="text" />
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label class="col-md-2" for="numero">Numero : </label>
-                            <div class="col-md-9">
-                                <input class="form-control" name="cpf" id="cpf" type="text" />
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label class="col-md-2" for="sexo">Bairro : </label>
-                            <div class="col-md-9">
-                            <select class="form-control" name="optsexo">
-                                <option value="masculino" >Masculino</option>
-                                <option value="meminino" >Feminino</option>
-                                </select> 
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label class="col-md-2" for="datanasc">Cidade : </label> 
-                            <div class="col-md-9">
-                                <input class="form-control" name="datanasc" id="datanasc" type="date"  />
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label class="col-md-2"for="telefone">Estado : </label>
-                            <div class="col-md-9">
-                                <input class="form-control" name="telefone" id="telefone" type="text"  />
-                            </div>
-                        </div>
-                 
 		</fieldset>
-          <button class="btn btn-default" type="button">Salvar</button>
+          <input type="submit">Salvar</button>
             <a href="index.html" class="btn btn-default">Cancelar</a>
     
      </form>
      </div>
       </div>
+      <script src="js/ClientController.js"></script>
+      <script src="js/jquery-2.2.4.min"></script>
 </body>
 </html>
