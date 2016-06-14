@@ -56,7 +56,7 @@
   </div><!-- /.container-fluid -->
 </nav>
        <div class="row">
-           <form  class="form-horizontal" id="form-cliente">
+           <form class="form-horizontal" id="form-cliente">
             <div class="col-md-6">
                 <legend>Dados Pessoais</legend>
                 
@@ -77,9 +77,10 @@
                         <div class="form-group">
                             <label class="col-md-2" for="sexo">Sexo : </label>
                             <div class="col-md-9">
-                            <select class="form-control" name="optsexo" id="sexo">
-                                <option value="masculino" >Masculino</option>
-                                <option value="meminino" >Feminino</option>
+                            <select class="form-control" name="sexo" id="sexo">
+                              <option value="0" style="display:none;">Selecione uma opção...</option>
+                                <option value="m" >Masculino</option>
+                                <option value="f" >Feminino</option>
                                 </select> 
                             </div>
                         </div>
@@ -91,13 +92,13 @@
                             </div>
                         </div>
 		</fieldset>
-          <a href="" class="btn btn-default">Salvar</a>
+            <button type="submit" class="btn btn-default">Salvar</button>
             <a href="index.html" class="btn btn-default">Cancelar</a>
     
      </form>
      </div>
       </div>
-      <script src="js/ClientController.js"></script>
       <script src="js/jquery-2.2.4.min"></script>
+      <script src="js/cadClientController.js"></script>
 </body>
 </html>
